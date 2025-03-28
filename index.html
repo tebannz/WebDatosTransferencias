@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datos de Transferencia</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>💰 Datos de Transferencia</h1>
+
+        <button onclick="mostrarDatos('mercadoPago')">Transferir con Mercado Pago</button>
+        <div id="mercadoPago" class="datos-banco">
+            <pre id="textoMercadoPago">
+Nombre: MICHAEL SAEZ
+RUT: 18990978-0
+Banco: MERCADO PAGO
+Tipo de cuenta: Cuenta Vista
+Número de cuenta: 1024476130
+Correo: maikostudios@gmail.com
+      </pre>
+        </div>
+
+        <button onclick="mostrarDatos('tenpo')">Transferir con Tenpo</button>
+        <div id="tenpo" class="datos-banco">
+            <pre id="textoTenpo">
+Nombre: MICHAEL SAEZ
+RUT: 18990978-0
+Banco: Prepago Tenpo
+Tipo de cuenta: Cuenta Vista
+Número de cuenta: 111118990978
+Correo: maikostudios@gmail.com
+      </pre>
+        </div>
+
+        <p id="mensajeCopiado" class="copiado">✅ ¡Datos copiados al portapapeles!</p>
+    </div>
+
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
