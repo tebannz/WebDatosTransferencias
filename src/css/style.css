@@ -51,3 +51,19 @@ body {
     text-align: center;
   }
   
+  .logo-banco {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 20px auto 10px auto;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  
+  .agradecimiento {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #555;
+  }
+  
